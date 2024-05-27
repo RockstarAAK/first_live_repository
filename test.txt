@@ -1,3 +1,12 @@
+--First Time Configuration
+
+git config --list (to list config)
+
+git config --global user.name "Github_Username"
+git config --global user.email "Github_email_id"
+
+--Initial Stage
+
 git init
 git add .
 git commit -m "first commit"
@@ -5,7 +14,7 @@ git branch -M main
 git remote add origin https://github.com/RockstarAAK/first_live_repository.git
 git push -u origin main
 
-second time
+--To update
 
 git add .
 git commit -m "updated commit"
